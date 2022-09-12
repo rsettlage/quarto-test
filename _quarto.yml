@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "This is my quarto website test"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - why.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
